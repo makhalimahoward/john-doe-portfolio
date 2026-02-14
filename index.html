@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>John Doe - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <!--Lapha sesi coda i header yangkhona manje, CHIRUNGU!!! -->
+
+    <header class="header">
+
+        <div class="header-container contain">
+
+            <a href="#home" class="logo"> John Doe </a>
+
+            <div class="side">
+                <nav class="navbar">
+                    <li class="hideOnMobile"><a href="#home">Home</a></li>
+                    <li class="hideOnMobile"><a href="#about">About</a></li>
+                    <LI class="hideOnMobile"><a href="#services">Services</a></LI>
+                    <li class="hideOnMobile"><a href="#testimonial">Testimonial</a></li>
+                    <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+                </nav>
+
+                <li onclick=showSidebar() class="menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                            viewBox="0 -960 960 960" width="26" fill="#fff">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+            </div>
+
+            <nav class="sidebar">
+                <li onclick=hideSidebar() class="x"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="28px"
+                            viewBox="0 -960 960 960" width="28px" fill="#fff">
+                            <path
+                                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                        </svg></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <LI><a href="#services">Services</a></LI>
+                <li><a href="#testimonial">Testimonial</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!--Lapha sesipheka maje. I Home section code itholakala la-->
+
+    <section class="home" id="home">
+        <div class="home-container contain">
+            <div class="home_img">
+                <img src="Testimonial5.jpeg" alt="John Doe Profile">
+            </div>
+    
+            <div class="home_content">
+                <h3>Hello, Welcome</h3>
+                <h1>John Doe</h1>
+                <h3>And I am a <span class="multiple-text"></span></h3>
+    
+                <p>
+                    As a Creative Designer, I thrive on crafting visually stunning and 
+                    highly functional digital experiences. I specialize in turning complex 
+                    ideas into clean, modern designs that resonate with audiences and 
+                    solve real-world problems.
+                </p>
+    
+                <div class="social_media">
+                    <a href="#"><i class='bx bxl-linkedin'></i></a>
+                    <a href="#"><i class='bx bxl-github'></i></a>
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                </div>
+    
+                <a href="#" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Lapha sesi coda i About section, SUBARASHI!!! -->
+
+    <section class="about" id="about">
+
+        <div class="about-container contain">
+
+            <div class="about_content">
+
+                <h2 class="heading">
+                    About
+                    <span>Me</span>
+                </h2>
+                <h3>
+                    I'm a
+                    <span>Creative Designer</span>
+                </h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum deleniti quo perferendis ipsum,
+                    tempore
+                    hic labore architecto, quibusdam, asperiores praesentium excepturi minima nemo ex. Molestiae fugit
+                    beatae dolore inventore porro.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="about_image">
+                <img src="Castellucci.jpg" alt="About Image">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Services section code, I code leyi inde kakhulu mani sengilobuthongo mina -->
+
+    <section class="services" id="services">
+
+        <div class="services-container contain">
+
+            <h2 class="heading">
+                My
+                <span>Services</span>
+            </h2>
+
+            <div class="services_container">
+
+                <div class="services_box">
+                    <i class='bx bx-code'></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, obcaecati beatae veritatis eum
+                        repellendus veniam mollitia minima.
+                    </p>
+
+                    <a href="#" class="btn">Read More</a>
+
+                </div>
+
+                <div class="services_box">
+                    <i class='bx bx-palette'></i>
+                    <h3>Digital Content</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, obcaecati beatae veritatis eum
+                        repellendus veniam mollitia minima.
+                    </p>
+
+                    <a href="#" class="btn">Read More</a>
+
+                </div>
+
+                <div class="services_box">
+                    <i class='bx bxl-android'></i>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, obcaecati beatae veritatis eum
+                        repellendus veniam mollitia minima.
+                    </p>
+
+                    <a href="#" class="btn">Read More</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Testimonials section code, Izolo ngicine ngilala mina, I'm coding this the proceeding day -->
+
+    <section class="testimonial" id="testimonial">
+
+        <div class="testimonial_box contain">
+
+            <h2 class="heading">Testimonials</h2>
+
+            <div class="wrapper">
+
+                <div class="testimonial_item">
+
+                    <img src="Testimonial5.jpeg" alt="">
+
+                    <h2>Jared</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio maxime odio.
+                    </p>
+
+                </div>
+
+                <div class="testimonial_item">
+
+                    <img src="Testimonial2.jpeg" alt="">
+
+                    <h2>Aleksa</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio maxime odio.
+                    </p>
+
+                </div>
+
+                <div class="testimonial_item">
+
+                    <img src="Testimonial4.jpeg" alt="">
+
+                    <h2>Ussop</h2>
+                    <div class="rating">
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                        <i class="bx bxs-star" id="star"></i>
+                    </div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid distinctio maxime odio.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--Contact section, Sengizaqeda-->
+
+    <section class="contact contain" id="contact">
+
+        <div class="contact-container contain">
+
+            <h2 class="heading">
+                Contact <span>Me</span>
+            </h2>
+
+            <form action="#" class="action">
+
+                <div class="input_box">
+
+                    <input type="text" placeholder="Full Name">
+                    <input type="text" name="Email" placeholder="Email Address">
+
+                </div>
+
+                <div class="input_box">
+
+                    <input type="number" placeholder="Phone Number">
+                    <input type="text" placeholder="Email Subject">
+
+                </div>
+
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <!--Footer section code, Last Stretch -->
+
+    <footer class="footer">
+
+        <div class="footer-container contain">
+
+            <div class="social">
+
+                <a href="#"><i class='bx bxl-linkedin'></i></box-icon></a>
+                <a href="#"><i class='bx bxl-github'></i></box-icon></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+
+            </div>
+
+            <p class="copyright">
+                &copy;<a href="https://howardmakhalima.pages.dev">Howard Makhalima</a> - All Rights Reserved
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".multiple-text", {
+            strings: ["Creative Designer", "UI/UX Specialist", "Digital Artist", "Photographer"],
+            typeSpeed: 70,    /* Slightly faster for a smoother feel */
+            backSpeed: 50,    /* Slower backspeed looks more natural */
+            backDelay: 1500,  /* Wait 1.5s before deleting the word */
+            loop: true
+        })
+    </script>
+
+    <script src="portfolio.js"></script>
+
+</body>
+
+</html>
