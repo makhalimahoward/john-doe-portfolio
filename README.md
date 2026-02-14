@@ -3,7 +3,7 @@ Basic Portfolio 🚀
 A high-performance, responsive personal portfolio website designed with a basic aesthetic. This project showcases the use of Native CSS Nesting and organic SVG-style animations to create a premium user experience.
 
 🔗 Live Demo
-Check out the live site here: [**Insert Your Live Link Here**](https://john-doe-portfolio-32l.pages.dev/)
+Check out the live site here: [Link Mictoss](https://john-doe-portfolio-32l.pages.dev/)
 
 ---
 
